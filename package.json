@@ -1,4 +1,6 @@
 {
+  "name": "bicom-suchanova.cz",
+  "license": "ISC",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
