@@ -1,7 +1,7 @@
 import React from 'react';
-import { Footer } from './Footer';
-import { Landing } from './Landing';
-import { Navigation } from './Navigation';
+import { Footer } from '../Footer/Footer';
+import { Landing } from '../Landing/Landing';
+import { Navigation } from '../Navigation/Navigation';
 
 const About = () => <section></section>;
 const Pricing = () => <section></section>;
