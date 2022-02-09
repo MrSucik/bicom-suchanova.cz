@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '../../components/Button/Button';
 
 export const Landing = () => (
   <main>
@@ -8,7 +9,7 @@ export const Landing = () => (
         • CELOSTNÍ PŘÍSTUP • VYSOKÁ ÚSPĚŠNOST • BEZ LÉKŮ • <br />• NEINVAZIVNÍ •
         EFEKTIVNÍ •
       </h2>
-      <button className="">CO JE TO BIOREZONANCE</button>
+      <Button>CO JE TO BIOREZONANCE</Button>
     </div>
   </main>
 );
