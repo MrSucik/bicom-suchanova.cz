@@ -14,7 +14,7 @@ function App({}: AppProps) {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="text-fuchsia-300">
           Page has been open for <code>{count}</code> seconds.
         </p>
         <p>
