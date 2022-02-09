@@ -1,17 +1,19 @@
 import React from 'react';
+import { Footer } from './Footer';
+import { Landing } from './Landing';
+import { Navigation } from './Navigation';
 
-const Landing = () => <main></main>;
-const TypesOfHelp = () => <section></section>;
+const About = () => <section></section>;
 const Pricing = () => <section></section>;
 const Reviews = () => <section></section>;
 const WriteReview = () => <section></section>;
 const Gallery = () => <section></section>;
-const Footer = () => <footer></footer>;
 
-const App = () => (
+export const App = () => (
   <>
+    <Navigation />
     <Landing />
-    <TypesOfHelp />
+    <About />
     <Pricing />
     <Reviews />
     <WriteReview />
@@ -19,5 +21,3 @@ const App = () => (
     <Footer />
   </>
 );
-
-export default App;
