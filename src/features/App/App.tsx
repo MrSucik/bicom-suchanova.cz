@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer } from "../Footer/Footer";
-import { Landing } from "../Landing/Landing";
+import { Hero } from "../Hero/Hero";
 import { Navigation } from "../Navigation/Navigation";
 
 const About = () => <section></section>;
@@ -12,7 +12,7 @@ const Gallery = () => <section></section>;
 export const App = () => (
   <>
     <Navigation />
-    <Landing />
+    <Hero />
     <About />
     <Pricing />
     <Reviews />

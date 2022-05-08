@@ -1,11 +1,11 @@
 import * as React from "react";
 import { expect } from "chai";
 import { render } from "@testing-library/react";
-import { Landing } from "./Landing";
+import { Hero } from "./Hero";
 
-describe("<Landing />", () => {
-  it("renders landing section", () => {
-    const { getByRole } = render(<Landing />);
+describe("<Hero />", () => {
+  it("renders hero section", () => {
+    const { getByRole } = render(<Hero />);
     const actionButton = getByRole("button");
 
     expect(document.body.contains(actionButton));
