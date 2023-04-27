@@ -1,4 +1,4 @@
-const scrollTo = (selector) => {
+const scrollToo = (selector) => {
   document.getElementsByClassName("navigation__checkbox")[0].checked = false;
   if (navigator.userAgent.search("Firefox") >= 0) {
     ScrollToResolver(document.getElementById(selector));
